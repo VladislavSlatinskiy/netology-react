@@ -1,0 +1,17 @@
+.layout {
+  column-count: 3;
+  column-gap: 2rem;
+}
+
+.card {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
