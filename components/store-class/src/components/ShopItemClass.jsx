@@ -4,7 +4,7 @@ export class ShopItemClass extends Component {
     priceFormat = (value) => (value ?? 0).toFixed(2);
 
     constructor(props) {
-        super();
+        super(props);
         this.item = props.item;
     }
 
