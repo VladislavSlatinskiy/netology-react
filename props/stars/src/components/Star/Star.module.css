@@ -1,0 +1,13 @@
+.star {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: none;
+  stroke: #D3BCA2;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+.star_filled {
+  fill: #D3BCA2;
+  stroke-width: 0;
+}
