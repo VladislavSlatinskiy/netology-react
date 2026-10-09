@@ -1,0 +1,21 @@
+.icon-btn_edit {
+    color: #3b82f6;
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.icon-btn_edit:hover {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: #fff;
+}
+
+.icon-btn_delete {
+    color: #ef4444;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.icon-btn_delete:hover {
+    background: #ef4444;
+    border-color: #ef4444;
+    color: #fff;
+}

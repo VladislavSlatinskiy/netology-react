@@ -1,0 +1,34 @@
+.table {
+    width: 100%;
+}
+
+.table__head {
+    display: flex;
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.table__body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.table__row {
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem 1rem;
+}
+
+.table__cell {
+    flex: 1;
+    text-align: center;
+    min-width: 0;
+}
